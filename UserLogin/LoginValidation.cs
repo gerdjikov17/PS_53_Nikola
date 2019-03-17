@@ -8,18 +8,8 @@ namespace UserLogin
 {
     public class LoginValidation
     {
-        static private UserRoles _currentUserRole;
-        static public UserRoles currentUserRole
-        {
-            get
-            {
-                return _currentUserRole;
-            }
-            private set
-            {
-                _currentUserRole = value;
-            }
-        }
+        static public UserRoles currentUserRole { get; private set; }
+        static public string currentUserUsername { get; private set; }
 
         public delegate void ActionOnError(string errorMsg);
         private string username;
@@ -70,6 +60,8 @@ namespace UserLogin
             if (user != null)
             {
                 currentUserRole = (UserRoles)user.role;
+                currentUserUsername = user.username;
+                Logger.LogActivity("Успешен Login");
                 return true;
             }
             else
