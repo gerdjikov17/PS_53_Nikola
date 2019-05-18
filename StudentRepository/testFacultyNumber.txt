@@ -1,0 +1,13 @@
+firstName Ivan
+secondName Petrov
+familyName 
+facultyFKST
+specialty ITI
+degree BACHELOR
+status CERTIFIED
+facultyNumber 1234
+course 3
+stream 10
+group 53
+lastZaverka 8.8.2016 г. 0:00:00
+lastPaidTaxDate 3.3.2016 г. 0:00:00

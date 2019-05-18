@@ -1,0 +1,12 @@
+﻿3/17/2019 8:44:23 PM;admin;ADMIN;Успешен Login
+3/17/2019 8:44:28 PM;admin;ADMIN;Промяна на роля на potrebitel2
+3/17/2019 8:55:31 PM;admin;ADMIN;Успешен Login
+3/17/2019 8:57:28 PM;admin;ADMIN;Успешен Login
+3/17/2019 8:58:44 PM;admin;ADMIN;Успешен Login
+3/17/2019 9:00:37 PM;admin;ADMIN;Успешен Login
+3/17/2019 9:00:51 PM;admin;ADMIN;Успешен Login
+3/17/2019 9:01:24 PM; admin; ADMIN; Успешен Login
+3/17/2019 9:01:50 PM; admin; ADMIN; Успешен Login
+3/17/2019 9:02:07 PM; admin; ADMIN; Промяна на активност на potrebitel2
+3/17/2019 9:21:52 PM; admin; ADMIN; Успешен Login
+3/17/2019 9:21:59 PM; admin; ADMIN; Успешен Login
