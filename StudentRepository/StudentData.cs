@@ -24,7 +24,7 @@ namespace StudentRepository
 
         public static Student IsThereStudent(string facultyNum)
         {
-            Student studentMatching = (from filteredStudent in TestStudents where filteredStudent.facultyNumber.Equals(facultyNum) select filteredStudent).First();
+            Student studentMatching = (from filteredStudent in TestStudents where filteredStudent.facultyNumber.Equals(facultyNum) select filteredStudent).FirstOrDefault();
             return studentMatching;
         }
     }

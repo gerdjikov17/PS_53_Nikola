@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StudentRepository
 {
-    class Student
+    public class Student
     {
         public string firstName;
         public string secondName;
@@ -43,11 +43,19 @@ namespace StudentRepository
 
         public override string ToString()
         {
-            return "firstName " + firstName + Environment.NewLine + "secondName " + secondName + Environment.NewLine +
-                "familyName " + Environment.NewLine + "faculty" + faculty + Environment.NewLine + "specialty " + specialty + Environment.NewLine + "degree " + degree.ToString() +
-                Environment.NewLine + "status " + status.ToString() + Environment.NewLine + "facultyNumber " + facultyNumber + Environment.NewLine + "course " + course.ToString() +
-                Environment.NewLine + "stream " + stream + Environment.NewLine + "group " + group.ToString() + Environment.NewLine + "lastZaverka " + lastZaverkaDate.ToString() +
-                Environment.NewLine + "lastPaidTaxDate " + lastPaidTaxDate.ToString();
+            return "firstName: " + firstName + Environment.NewLine + 
+                "secondName: " + secondName + Environment.NewLine +
+                "familyName: " + familyName + Environment.NewLine + 
+                "faculty: " + faculty + Environment.NewLine + 
+                "specialty: " + specialty + Environment.NewLine + 
+                "degree: " + degree.ToString() + Environment.NewLine + 
+                "status: " + status.ToString() + Environment.NewLine + 
+                "facultyNumber: " + facultyNumber + Environment.NewLine + 
+                "course: " + course.ToString() + Environment.NewLine + 
+                "stream: " + stream + Environment.NewLine + 
+                "group: " + group.ToString() + Environment.NewLine + 
+                "lastZaverka: " + lastZaverkaDate.ToString() + Environment.NewLine + 
+                "lastPaidTaxDate: " + lastPaidTaxDate.ToString();
         }
     }
         

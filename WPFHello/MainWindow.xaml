@@ -1,0 +1,38 @@
+﻿<Window x:Class="WPFHello.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFHello"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Closing="Window_Closing">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="779*"/>
+            <ColumnDefinition Width="13*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Hello, WPF!" HorizontalAlignment="Left" VerticalAlignment="Center" FontWeight="Bold" FontSize="48" FontFamily="Showcard Gothic" Margin="100,175,223.471,175"/>
+        <Button x:Name="helloButton" Content="Здрасти" HorizontalAlignment="Center" Margin="275,50,415.471,341" VerticalAlignment="Center" Width="89" Click="HelloButton_Click" Height="28"/>
+        <GroupBox x:Name="gbUser" Header="Hello World!&#xD;&#xA;" HorizontalAlignment="Center" Height="409" VerticalAlignment="Top" Width="645" Margin="55,0,79.471,0" >
+            <TextBox x:Name="nameTextBox" HorizontalAlignment="Left" Height="23" Margin="10,15,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="186"/>
+        </GroupBox>
+        <Label x:Name="nameLabel" Content="Потребител" HorizontalAlignment="Left" Margin="72,21,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="nTextBox" HorizontalAlignment="Left" Height="23" Margin="72,94,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="xTextBox" HorizontalAlignment="Left" Height="23" Margin="72,125,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="calculateButton" Content="Calculate factorial" HorizontalAlignment="Left" Margin="236,118,0,0" VerticalAlignment="Top" Width="128" Click="CalculateButton_Click"/>
+        <Grid x:Name="mainGrid" HorizontalAlignment="Left" Height="265" Margin="540,38,0,0" VerticalAlignment="Top" Width="190">
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="33,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="33,51,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="33,79,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="33,117,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        </Grid>
+        <Button x:Name="gridButton" Content="За Грида" HorizontalAlignment="Left" Margin="625,308,0,0" VerticalAlignment="Top" Width="75" Click="GridButton_Click"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="95,287,0,0" TextWrapping="Wrap" Text="Hello, XAML!" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="ArialBlack" Margin="100,170,0,0">
+            I edit XAML myself!
+        </TextBlock>        <Button HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Height="25" Click="Button_Click">
+            Click me!
+        </Button>
+
+    </Grid>
+</Window>

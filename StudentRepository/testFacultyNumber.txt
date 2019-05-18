@@ -10,4 +10,52 @@ course 3
 stream 10
 group 53
 lastZaverka 8.8.2016 г. 0:00:00
-lastPaidTaxDate 3.3.2016 г. 0:00:00
+lastPaidTaxDate 3.3.2016 г. 0:00:00firstName Nikola
+secondName Gerdzhikov
+familyName 
+facultyFKST
+specialty ITI
+degree BACHELOR
+status CERTIFIED
+facultyNumber 501216022
+course 3
+stream 10
+group 53
+lastZaverka 10/10/2016 12:00:00 AM
+lastPaidTaxDate 5/1/2016 12:00:00 AMfirstName Nikola
+secondName Gerdzhikov
+familyName 
+facultyFKST
+specialty ITI
+degree BACHELOR
+status CERTIFIED
+facultyNumber 501216022
+course 3
+stream 10
+group 53
+lastZaverka 10/10/2016 12:00:00 AM
+lastPaidTaxDate 5/1/2016 12:00:00 AMfirstName Nikola
+secondName Gerdzhikov
+familyName 
+facultyFKST
+specialty ITI
+degree BACHELOR
+status CERTIFIED
+facultyNumber 501216022
+course 3
+stream 10
+group 53
+lastZaverka 10/10/2016 12:00:00 AM
+lastPaidTaxDate 5/1/2016 12:00:00 AMfirstName Nikola
+secondName Gerdzhikov
+familyName 
+facultyFKST
+specialty ITI
+degree BACHELOR
+status CERTIFIED
+facultyNumber 501216022
+course 3
+stream 10
+group 53
+lastZaverka 10/10/2016 12:00:00 AM
+lastPaidTaxDate 5/1/2016 12:00:00 AM
